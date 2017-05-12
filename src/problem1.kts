@@ -1,0 +1,1 @@
+println(generateSequence(0) { it + 1 }.take(1000).filter { it % 5 == 0 || it % 3 == 0 }.sum())

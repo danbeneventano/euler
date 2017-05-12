@@ -1,0 +1,1 @@
+println(Math.pow((1..100).sum().toDouble(), 2.0) - (1..100).map { it * it }.sum())
